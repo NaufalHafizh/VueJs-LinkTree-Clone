@@ -31,5 +31,18 @@ export default{
     margin-top: 100px;
 }
 
+@media only screen and (max-width: 400px) {
+    
+    #BaseCard{
+
+        margin-top: 100px;
+    }
+
+    #card-base{
+
+        width: 20rem;
+    }
+
+}
 
 </style>

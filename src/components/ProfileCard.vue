@@ -1,7 +1,7 @@
 <template>
     <div class="text-center" id="profilebase">
         <img class="rounded-circle" src="@/assets/decresed.jpg" alt="">
-        <h5 class="mt-3">{{ name }}</h5>
+        <h5 class="mt-3 h5size">{{ name }}</h5>
         <figure>
             <blockquote>
                 <q class="">{{ quotes }}</q>
@@ -33,5 +33,17 @@ img{
 
     width: 200px;
     height: 100%;
+}
+
+@media only screen and (max-width: 400px){
+
+    q{
+        font-size: 12px;
+    }
+
+    .h5size{
+
+        font-size: 1rem;
+    }
 }
 </style>
