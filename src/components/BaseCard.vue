@@ -1,0 +1,35 @@
+<template>
+    <section class="container" id="BaseCard">
+        <div id="card-base" class="card shadow-sm p-4">
+            <div class="card-body">
+                <ProfileCard/>
+            </div>
+        </div>
+    </section>
+</template>
+
+<script>
+import ProfileCard from '@/components/ProfileCard.vue'
+
+export default{
+    name: "base-card",
+    components:{
+        ProfileCard
+    }
+};
+</script>
+<style>
+#card-base{
+
+    width: 34rem;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+#BaseCard{
+    
+    margin-top: 100px;
+}
+
+
+</style>
