@@ -41,7 +41,7 @@ img{
 @media only screen and (max-width: 400px){
 
     q{
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .h5size{
