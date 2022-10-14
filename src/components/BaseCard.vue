@@ -38,7 +38,7 @@ export default{
     
     #BaseCard{
 
-        margin-top: 0px;
+        margin-top: 10px;
     }
 
     #card-base{
