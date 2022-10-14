@@ -4,17 +4,20 @@
             <div class="card-body">
                 <ProfileCard/>
             </div>
+            <FooterCard/>
         </div>
     </section>
 </template>
 
 <script>
 import ProfileCard from '@/components/ProfileCard.vue'
+import FooterCard from '@/components/FooterCard.vue'
 
 export default{
     name: "base-card",
     components:{
-        ProfileCard
+        ProfileCard,
+        FooterCard
     }
 };
 </script>

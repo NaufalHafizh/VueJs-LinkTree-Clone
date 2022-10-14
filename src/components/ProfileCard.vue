@@ -7,10 +7,13 @@
                 <q class="">{{ quotes }}</q>
             </blockquote>
         </figure>
-        <div class="d-block mt-3">
-            <a href="" class="btn btn-outline-dark m-2"><i class="fa-regular fa-browser"></i>Personal Website</a>
-            <a href="" class="btn btn-outline-dark m-2"><i class="fa-brands fa-github"></i> Github</a>
-            <a href="" class="btn btn-outline-dark m-2"><i class="fa-brands fa-instagram"></i> Instagram</a>
+        <div class="mt-3 d-block d-md-grid">
+            <a href="" class="btn btn-outline-dark m-2"><i class="fa-solid fa-globe fa-lg"></i></a>
+            <a href="" class="btn btn-outline-dark m-2"><i class="fa-solid fa-envelope fa-lg"></i></a>
+            <a href="" class="btn btn-outline-dark m-2"><i class="fa-brands fa-github fa-lg"></i></a>
+            <a href="" class="btn btn-outline-dark m-2"><i class="fa-brands fa-square-instagram fa-lg"></i></a>
+            <a href="" class="btn btn-outline-dark m-2"><i class="fa-brands fa-twitter fa-lg"></i></a>
+            <a href="" class="btn btn-outline-dark m-2"><i class="fa-brands fa-facebook fa-lg"></i></a>
         </div>
     </div>
 </template>
@@ -22,7 +25,7 @@ export default{
     data(){
         return{
             name: "Muhammad Naufal Hafizh",
-            quotes: "make it work, make it right, make it fast"
+            quotes: "make it work, make it right, make it fast",
         }
     }
 }
