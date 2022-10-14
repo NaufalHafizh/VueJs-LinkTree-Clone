@@ -36,6 +36,7 @@ img{
 
 .jobs{
     font-size: 15px;
+    font-weight: 300;
 }
 
 .backslash{
@@ -45,6 +46,12 @@ img{
 }
 
 @media only screen and (max-width: 400px){
+
+    img{
+
+        width: 100px;
+        height: 100%;
+    }
 
     .jobs{
         font-size: 10px;
