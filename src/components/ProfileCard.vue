@@ -7,7 +7,7 @@
                 <q class="">{{ quotes }}</q>
             </blockquote>
         </figure>
-        <div class="mt-3 d-block d-md-grid">
+        <div class="mt-3 d-block d-md-block d-sm-grid">
             <a href="" class="btn btn-outline-dark m-2"><i class="fa-solid fa-globe fa-lg"></i></a>
             <a href="" class="btn btn-outline-dark m-2"><i class="fa-solid fa-envelope fa-lg"></i></a>
             <a href="" class="btn btn-outline-dark m-2"><i class="fa-brands fa-github fa-lg"></i></a>
