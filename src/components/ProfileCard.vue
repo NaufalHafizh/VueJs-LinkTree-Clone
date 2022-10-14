@@ -1,12 +1,8 @@
 <template>
     <div class="text-center" id="profilebase">
         <img class="rounded-circle" src="@/assets/decresed.jpg" alt="">
-        <h5 class="mt-3 h5size">{{ name }}</h5>
-        <figure>
-            <blockquote>
-                <q class="">{{ quotes }}</q>
-            </blockquote>
-        </figure>
+        <h5 class="mt-3 name">{{ name }}</h5>
+        <p class="jobs"> <span class="backslash">[</span> {{ jobs }} <span class="backslash">]</span></p> 
         <div class="mt-3 d-grid d-sm-block">
             <a href="" class="btn btn-outline-dark m-2"><i class="fa-solid fa-globe fa-lg"></i></a>
             <a href="" class="btn btn-outline-dark m-2"><i class="fa-solid fa-envelope fa-lg"></i></a>
@@ -25,7 +21,7 @@ export default{
     data(){
         return{
             name: "Muhammad Naufal Hafizh",
-            quotes: "make it work, make it right, make it fast",
+            jobs: "Programmer and Web Developer",
         }
     }
 }
@@ -38,13 +34,29 @@ img{
     height: 100%;
 }
 
+.jobs{
+    font-size: 15px;
+}
+
+.backslash{
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
 @media only screen and (max-width: 400px){
 
-    q{
+    .jobs{
         font-size: 10px;
     }
 
-    .h5size{
+    .backslash{
+
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .name{
 
         font-size: 1rem;
     }
