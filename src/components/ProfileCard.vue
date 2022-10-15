@@ -4,12 +4,13 @@
         <h5 class="mt-3 name">{{ name }}</h5>
         <p class="jobs"> <span class="backslash">[</span> {{ jobs }} <span class="backslash">]</span></p> 
         <div class="mt-3 d-grid d-sm-block">
-            <a href="" class="btn btn-outline-dark m-2"><i class="fa-solid fa-globe fa-lg"></i></a>
+            <a href="https://naufalhafizh.github.io/Portfolio/" class="btn btn-outline-dark m-2"><i class="fa-solid fa-globe fa-lg"></i></a>
             <a href="" class="btn btn-outline-dark m-2"><i class="fa-solid fa-envelope fa-lg"></i></a>
-            <a href="" class="btn btn-outline-dark m-2"><i class="fa-brands fa-github fa-lg"></i></a>
-            <a href="" class="btn btn-outline-dark m-2"><i class="fa-brands fa-square-instagram fa-lg"></i></a>
-            <a href="" class="btn btn-outline-dark m-2"><i class="fa-brands fa-twitter fa-lg"></i></a>
-            <a href="" class="btn btn-outline-dark m-2"><i class="fa-brands fa-facebook fa-lg"></i></a>
+            <a href="https://www.linkedin.com/in/muhammad-naufal-hafizh-52411120a/" class="btn btn-outline-dark m-2"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+            <a href="https://github.com/NaufalHafizh" class="btn btn-outline-dark m-2"><i class="fa-brands fa-github fa-lg"></i></a>
+            <a href="https://www.instagram.com/mnaufalhafizh20/" class="btn btn-outline-dark m-2"><i class="fa-brands fa-square-instagram fa-lg"></i></a>
+            <a href="#" class="btn btn-outline-dark m-2"><i class="fa-brands fa-twitter fa-lg"></i></a>
+            <a href="https://twitter.com/EfficientAnsici" class="btn btn-outline-dark m-2"><i class="fa-brands fa-facebook fa-lg"></i></a>
         </div>
     </div>
 </template>
