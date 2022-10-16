@@ -1,8 +1,8 @@
 <template>
     <div class="text-center mt-3" id="footer">
         <p>
-            Make By 🖤 <br>
-            From Magetan, Indonesia
+            Made with 🖤 <br>
+            By Muhammad Naufal Hafizh
         </p>
     </div>
 </template>

@@ -27,7 +27,6 @@ export default{
     width: 34rem;
     margin: 0 auto; /* Added */
     float: none; /* Added */
-    margin-bottom: 10px; /* Added */
 }
 #BaseCard{
     
