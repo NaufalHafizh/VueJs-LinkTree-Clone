@@ -10,7 +10,7 @@ import VueGtag from 'vue-gtag'
 createApp(App).use(VueGtag, {
 
     config: { 
-        id: "G-N61429RRZD" 
+        id: "342179443" 
     }
 
 }).mount("#app");
