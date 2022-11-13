@@ -4,11 +4,19 @@
 
 <script>
 import BaseCard from "@/components/BaseCard.vue"
-
+import { event } from 'vue-gtag'
 export default{
   name: 'App',
   components:{
     BaseCard
+  },
+  setup() {
+    const login = () => {
+      event('login', { method: 'Google' })
+    }
+    return {
+      login
+    }
   }
 };
 </script>
