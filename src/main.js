@@ -9,6 +9,7 @@ import VueAnalytics from 'vue-analytics'
 
 App.use(VueAnalytics, {
 
-    'id': 'G-N61429RRZD'
+    id: 'G-N61429RRZD'
 })
+
 createApp(App).mount('#app')
