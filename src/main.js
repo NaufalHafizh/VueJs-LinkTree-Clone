@@ -5,5 +5,10 @@ import 'bootstrap/dist/js/bootstrap.min'
 import '@fortawesome/fontawesome-free/css/fontawesome.css'
 import '@fortawesome/fontawesome-free/css/solid.css'
 import '@fortawesome/fontawesome-free/css/brands.css'
+import VueAnalytics from 'vue-analytics'
 
+App.use(VueAnalytics, {
+
+    'id': 'G-N61429RRZD'
+})
 createApp(App).mount('#app')
