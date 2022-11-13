@@ -5,12 +5,11 @@ import 'bootstrap/dist/js/bootstrap.min'
 import '@fortawesome/fontawesome-free/css/fontawesome.css'
 import '@fortawesome/fontawesome-free/css/solid.css'
 import '@fortawesome/fontawesome-free/css/brands.css'
-import VueGtagPlugin from 'vue-gtag'
+import VueGtag from 'vue-gtag'
+createApp(App).use(VueGtag, {
 
-const app = createApp(App);
-app.use(VueGtagPlugin, {
     config: { 
-        id: "G-N61429RRZD",
-    },
-})
-createApp(App).mount('#app')
+        id: "G-N61429RRZD" 
+    }
+
+}).mount("#app");
